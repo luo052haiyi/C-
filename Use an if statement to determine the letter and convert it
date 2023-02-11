@@ -1,0 +1,25 @@
+#include <iostream>
+#include<bitset>
+using namespace std;
+
+int main()
+{   char ch='\0';
+    cout<<"请输入字母:"<<endl;
+    cin>>ch;
+    if(ch>='a'&&ch<='z')
+    {
+        cout<<"ch为小写字母"<<endl;
+        ch=ch-32;
+        cout<<"大写字母为:"<<ch<<endl;
+    }
+    else
+    {
+        cout<<"ch为大写字母"<<endl;
+        ch=ch+32;
+        cout<<"小写字母为："<<ch<<endl;
+    }
+
+
+
+    return 0;
+}
